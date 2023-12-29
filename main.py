@@ -1,3 +1,10 @@
 import streamlit as st
-      #display or write something onto the screen.write()
-st.write("This is my first streamlit page")
+st.write("<h1>Hello world</h1>",unsafe_allow_html=True)
+#ing colour of text
+st.write("<h1 style='color: red;'>hello world</h1>",unsafe_allow_html=True)
+#uploading file
+st.file_uploader("upload file")
+#upload image
+#upload video
+st.video("https://www.youtube.com/watch?v=MkLhijus3vg")
+
